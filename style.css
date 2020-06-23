@@ -1,0 +1,86 @@
+/******SIMPLE FORM******/
+/*
+GOOGLE FONTS
+font-family: 'Cantora One', sans-serif;
+font-family: 'Cabin', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Cantora One', sans-serif;
+    margin: 0;
+}
+
+form {
+    font-family: 'Cabin', sans-serif;
+    margin: 10px 10px 50px 10px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item {
+    flex: 1;
+}
+
+.item-double {
+    flex: 2;
+}
+
+main img {
+    width: 100%;
+}
+
+form input[type=text], 
+form input[type=email], 
+form textarea {
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form fieldset {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form fieldset legend {
+    background-color: #020275;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form fieldset label {
+    display: inline-block;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+form button {
+    margin-right: 10px;
+}
+
+/******MEDIA QUERIES******/
+
+@media all and (min-width: 800px){
+    .group {
+        flex-direction: row;
+    }
+
+}
+
